@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mudiam Anudeep Venkat Reddy • Portfolio</title>
+    <meta name="description" content="Portfolio of Mudiam Anudeep Venkat Reddy — Embedded IoT, VLSI Methodology, Web Development." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&family=JetBrains+Mono:wght@300;400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='46' fill='%237459ff'/%3E%3Cpath d='M25 60 L50 20 L75 60 Z' fill='white'/%3E%3C/svg%3E" />
+    <script defer src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <canvas id="stars"></canvas>
+
+    <header class="site-header">
+      <div class="container">
+        <a class="brand" href="#home">Anudeep</a>
+        <nav class="nav">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Internship</a>
+          <a href="#education">Education</a>
+          <a href="#publications">Publications</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">✦</button>
+      </div>
+    </header>
+
+    <main id="home" class="hero container no-art">
+      <div class="hero-text">
+        <p class="hello">こんにちは — Hello!</p>
+        <h1>
+          I'm <span class="accent">Mudiam Anudeep Venkat Reddy</span>
+        </h1>
+        <h2 class="typed" aria-live="polite"></h2>
+        <p class="tagline">
+          Final‑year CSE student passionate about Embedded IoT, VLSI verification, and full‑stack web development.
+        </p>
+        <div class="cta">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn" href="#contact">Get in touch</a>
+        </div>
+        <ul class="quick-links">
+          <li><a href="mailto:mudiam.av@gmail.com">mudiam.av@gmail.com</a></li>
+          <li><a href="tel:+917075578444">+91 7075578444</a></li>
+          <li><a target="_blank" rel="noopener" href="https://linkedin.com/in/anudeepreddy-mudiam">LinkedIn</a></li>
+          <li><a target="_blank" rel="noopener" href="https://github.com/anudeep">GitHub</a></li>
+        </ul>
+      </div>
+    </main>
+
+    <section id="about" class="section container">
+      <h3>About</h3>
+      <p>
+        Motivated final‑year Computer Science and Engineering student with hands‑on
+        experience in Embedded IoT development, UVM‑based verification, and
+        full‑stack web development. Adept at bridging hardware and software to
+        deliver innovative solutions with a strong foundation in engineering
+        principles and a passion for continuous learning. Seeking a challenging
+        role to apply technical expertise, creativity, and drive to deliver
+        impactful results in a growth‑oriented organization.
+      </p>
+    </section>
+
+    <section id="skills" class="section container reveal-on-scroll">
+      <h3>Skills</h3>
+      <div class="chip-group">
+        <span class="chip" data-skill="python" tabindex="0">Python</span>
+        <span class="chip" data-skill="embedded-c" tabindex="0">Embedded C</span>
+        <span class="chip" data-skill="systemverilog" tabindex="0">SystemVerilog (UVM)</span>
+        <span class="chip" data-skill="verilog" tabindex="0">Verilog</span>
+        <span class="chip" data-skill="sql" tabindex="0">SQL</span>
+        <span class="chip" data-skill="html" tabindex="0">HTML</span>
+        <span class="chip" data-skill="css" tabindex="0">CSS</span>
+        <span class="chip" data-skill="javascript" tabindex="0">JavaScript</span>
+        <span class="chip" data-skill="git" tabindex="0">Git</span>
+        <span class="chip" data-skill="docker" tabindex="0">Docker</span>
+        <span class="chip" data-skill="vscode" tabindex="0">VS Code</span>
+      </div>
+      <div class="pill-group">
+        <div class="pill">Interests: Web Development, IoT, UVM Verification</div>
+        <div class="pill">Soft Skills: Peer Learning, Mentoring, Leadership, Communication</div>
+      </div>
+    </section>
+
+    <section id="projects" class="section container reveal-on-scroll">
+      <h3>Projects</h3>
+
+      <div class="cards">
+        <article class="card">
+          <header>
+            <h4>Gas Leakage Detector with GSM Module</h4>
+            <span class="tech">Embedded IoT • Embedded C</span>
+          </header>
+          <p>
+            A gas leakage detection system integrated with a GSM module to enhance safety in domestic and
+            industrial environments. Using an MQ‑series gas sensor, the system continuously monitors for hazardous
+            concentrations. Upon detecting a leak, it triggers an alarm and simultaneously sends an SMS to predefined
+            numbers via GSM, ensuring prompt awareness and action. Built on a microcontroller platform (e.g., Arduino),
+            offering an efficient, real‑time approach to gas leak detection and communication.
+          </p>
+        </article>
+
+        <article class="card">
+          <header>
+            <h4>Integrated Eco‑Friendly Mobility & Emission Management</h4>
+            <span class="tech">Python • HTML • CSS • JavaScript</span>
+          </header>
+          <p>
+            A sustainable transportation solution that integrates real‑time emission tracking, route optimization,
+            EV support, and smart parking. Leveraging geolocation services, mapping tools, and data analytics, the
+            system enhances mobility while reducing carbon footprints and promoting eco‑friendly transportation.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section container reveal-on-scroll">
+      <h3>Internship</h3>
+      <article class="experience">
+        <div class="exp-header">
+          <h4>VLSI Methodology Intern</h4>
+          <span>MAY 2024 – JUL 2024 · Tamil Nadu, India</span>
+        </div>
+        <ul>
+          <li>Designed and implemented a 32‑bit pipelined Arithmetic Logic Unit (ALU) focused on speed and resource utilization.</li>
+          <li>Developed and executed testbenches using SystemVerilog to verify ALU functionality.</li>
+          <li>Gained practical experience with Verilog, simulation tools, and VLSI design flow fundamentals.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="education" class="section container reveal-on-scroll">
+      <h3>Education</h3>
+      <div class="edu">
+        <h4>Bachelor of Technology in Computer Science and Engineering</h4>
+        <p>Kalasalingam University, Srivilliputhur, Tamil Nadu · Sep 2022 – Present</p>
+        <p><strong>CGPA:</strong> 7.5/10</p>
+      </div>
+    </section>
+
+    <section id="publications" class="section container reveal-on-scroll">
+      <h3>Publications</h3>
+      <ul>
+        <li>
+          Presented IEEE Paper titled “Self‑Tuning PID Controller for Quadcopter Using Fuzzy Logic” at IEEE Student
+          Conference 2025.
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section container reveal-on-scroll">
+      <h3>Contact</h3>
+      <div class="contact-grid">
+        <a class="contact-tile" href="mailto:mudiam.av@gmail.com">
+          <span>✉️</span>
+          <strong>Email</strong>
+          <small>mudiam.av@gmail.com</small>
+        </a>
+        <a class="contact-tile" href="tel:+917075578444">
+          <span>📱</span>
+          <strong>Phone</strong>
+          <small>+91 7075578444</small>
+        </a>
+        <a class="contact-tile" target="_blank" rel="noopener" href="https://linkedin.com/in/anudeepreddy-mudiam">
+          <span>🔗</span>
+          <strong>LinkedIn</strong>
+          <small>/in/anudeepreddy-mudiam</small>
+        </a>
+        <a class="contact-tile" target="_blank" rel="noopener" href="https://github.com/anudeep">
+          <span>👨‍💻</span>
+          <strong>GitHub</strong>
+          <small>@anudeep</small>
+        </a>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Anudeep • Built with love and a hint of anime ✧</p>
+      </div>
+    </footer>
+  </body>
+  </html>
+
+
